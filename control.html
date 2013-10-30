@@ -5,6 +5,11 @@
 	<script type="text/javascript" src="js/duinobot.js"></script>
 </head>
 <body>
+    <h1>Interfaz web para controlar uno o más robots</h1>
+    <form>
+        Code: <input type="text" id="code"><br>
+        <input type="submit" id="run" value="Ejecutar">
+    </form>
 	<script>
 		var run = document.getElementById('run');
 		run.addEvenListener('click', funtion(e){

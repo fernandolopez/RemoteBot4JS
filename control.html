@@ -1,0 +1,16 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>RemoteBot4JS</title>
+	<script type="text/javascript" src="js/duinobot.js"></script>
+</head>
+<body>
+	<script>
+		var run = document.getElementById('run');
+		run.addEvenListener('click', funtion(e){
+			var txt = document.getEementById('code').value;
+			eval(txt);
+		}, true);
+	</script>
+</body>
+</html>

@@ -1,11 +1,11 @@
 
-body {font-color: #14659d;
+body {color: #14659d;
 background-color: white;
 }
 
 
 textarea {
-  
+	  
 	height:800px;
 	width: 400px;
 	border: 1px color: #14659d; 

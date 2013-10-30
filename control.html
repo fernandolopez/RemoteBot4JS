@@ -9,10 +9,8 @@
 </head>
 <body>
     <h1>Interfaz web para controlar uno o m&aacute;s robots</h1>
-    <form>
-        Code: <input type="text" id="code"><br>
-        <input type="submit" id="run" value="Ejecutar">
-    </form>
+	Code: <textarea id="code"></textarea><br>
+    <input type="button" id="run" value="Ejecutar">
 	<script>
 		var run = document.getElementById('run');
 		run.addEventListener('click', function(e){

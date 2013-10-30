@@ -1,4 +1,7 @@
-<!DOCTYPE>
+
+
+
+<!DOCTYPE html>
 <html>
 <head>
 	<title>RemoteBot4JS</title>
@@ -12,8 +15,8 @@
     </form>
 	<script>
 		var run = document.getElementById('run');
-		run.addEvenListener('click', funtion(e){
-			var txt = document.getEementById('code').value;
+		run.addEventListener('click', function(e){
+			var txt = document.getElementById('code').value;
 			eval(txt);
 		}, true);
 	</script>
